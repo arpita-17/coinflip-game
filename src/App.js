@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="App">
       <h1>Coinflip Game</h1>
+      <div>
       <WalletConnect />
       <CoinflipGame />
+      </div>
     </div>
   );
 }

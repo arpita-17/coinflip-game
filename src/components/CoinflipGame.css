@@ -1,0 +1,132 @@
+/* CoinflipGame.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #1f4037 0%, #99f2c8 100%);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .coinflip-container-alt {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .coinflip-title-alt {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .coinflip-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 100%;
+  }
+  
+  .coinflip-input-group {
+    margin-bottom: 20px;
+  }
+  
+  .coinflip-input-alt {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    box-sizing: border-box;
+  }
+  
+  .coinflip-input-alt::placeholder {
+    color: #ffffff;
+  }
+  
+  .coinflip-radio-group-alt {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  
+  .coinflip-radio-alt {
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: background-color 0.3s, border 0.3s;
+    text-align: center;
+  }
+  
+  .coinflip-radio-alt.selected {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #ffffff;
+  }
+  
+  .coinflip-button-alt {
+    padding: 12px 30px;
+    font-size: 18px;
+    background: linear-gradient(135deg, #ff9a8b, #ff6a4e); /* Matching gradient background */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Matching shadow */
+    display: inline-block; /* Ensures consistent alignment */
+    margin: 10px 0; /* Provides spacing between buttons */
+  }
+  
+  .coinflip-button-alt:hover {
+    background: linear-gradient(135deg, #ff7e5f, #ff6a4e); /* Darker gradient on hover */
+  }
+  
+  .coinflip-result-alt {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .coinflip-result-alt:empty {
+    display: none;
+  }
+  
+  /* Updated styles for Connect Wallet button */
+  .connect-wallet-button {
+    padding: 12px 30px; /* Match padding with coinflip-button-alt */
+    font-size: 18px; /* Match font size with coinflip-button-alt */
+    background: linear-gradient(135deg, #ff9a8b, #ff6a4e); /* Matching gradient background */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Matching shadow */
+    display: inline-block; /* Ensures consistent alignment */
+    margin: 10px 0; /* Provides spacing between buttons */
+  }
+  
+  .connect-wallet-button:hover {
+    background: linear-gradient(135deg, #ff7e5f, #ff6a4e); /* Darker gradient on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ethers } from 'ethers';
-
+import './CoinflipGame.css';
 function WalletConnect() {
   const [account, setAccount] = useState(null);
 
@@ -20,7 +20,7 @@ function WalletConnect() {
 
   return (
     <div>
-      <button onClick={connectWallet}>
+      <button  onClick={connectWallet} class="connect-wallet-button">
         {account ? `Connected: ${account.slice(0, 6)}...` : "Connect Wallet"}
       </button>
     </div>
